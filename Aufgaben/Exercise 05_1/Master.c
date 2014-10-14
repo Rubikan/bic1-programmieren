@@ -17,7 +17,7 @@ int main(int argc, char* argv[]) {
 	int result = 0;
 
 	do {
-		result++;
+		result+=20;
 		for (i = 1; i <= 20; i++) {
 			if (result % i == 0) {
 				found = 1;
