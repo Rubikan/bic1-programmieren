@@ -40,10 +40,10 @@ double getSteuer(double brutto, int klasse) {
 		case (2):
 			return ((brutto - 11000) * 5110) / 14000;
 			break;
-		case (3) :
+		case (3):
 			return (((brutto - 25000) * 15125) / 35000) + 5110;
 			break;
-		case (4) :
+		case (4):
 			return ((brutto - 60000) * 0.5) + 20235;
 			break;
 	}
