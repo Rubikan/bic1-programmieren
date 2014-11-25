@@ -25,14 +25,14 @@ extern const double PI = 3.14159265359;
 
 /* Public functions */
 
-extern double surface_cuboid(double length, double width, double height) {
+double surface_cuboid(double length, double width, double height) {
 	return SURFACE_CUBOID;
 }
 
-extern double volume_cuboid(double length, double width, double height) {
+double volume_cuboid(double length, double width, double height) {
 	return area_rectangle(length, width) * height;
 }
 
-extern double volume_cube(double length) {
+double volume_cube(double length) {
 	return area_rectangle(length, length) * length;
 }
